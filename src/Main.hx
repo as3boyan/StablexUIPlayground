@@ -33,10 +33,10 @@ import nme.text.TextField;
 import nme.text.TextFieldType;
 import ru.stablex.ui.RTXml;
 import ru.stablex.ui.UIBuilder;
-import sys.FileSystem;
 
 #if !flash
 import fileutils.TextFileUtils;
+import sys.FileSystem;
 #end
 
 class Main extends Sprite 
