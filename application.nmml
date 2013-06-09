@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="StablexUI Playground3" package="StablexUIPlayground3" version="1.0.0" company="" />
+	
+	<!-- output -->
+	<app main="Main" file="StablexUIPlayground3" path="bin" />
+	
+	<window background="#FFFFFF" fps="60" />
+	<window width="1024" height="480" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<source path="C:\Users\ps\Downloads\StablexUI-master\StablexUI-master\src" />
+	<haxelib name="nme" />
+	<haxelib name="actuate" />
+	<haxelib name="hscript" />
+	
+	<!-- assets -->
+	<icon path="assets/nme.svg" />
+	<assets path="assets/img" rename="img" />
+	
+	<!-- optimize output -->
+	<haxeflag name="--dead-code-elimination" unless="haxe3" />
+	
+</project>
