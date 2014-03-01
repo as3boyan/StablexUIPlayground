@@ -22,9 +22,9 @@ package ;
  *	THE SOFTWARE.
  */ 
 
-import nme.display.Sprite;
-import nme.events.Event;
-import nme.events.MouseEvent;
+import flash.display.Sprite;
+import flash.events.Event;
+import flash.events.MouseEvent;
 
 class Draggable extends Sprite
 {

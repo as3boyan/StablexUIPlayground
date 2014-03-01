@@ -24,13 +24,13 @@ package ;
 
 import haxe.Timer;
 import motion.Actuate;
-import nme.text.AntiAliasType;
-import nme.text.TextFormat;
-import nme.display.Sprite;
-import nme.events.Event;
-import nme.Lib;
-import nme.text.TextField;
-import nme.text.TextFieldType;
+import flash.text.AntiAliasType;
+import flash.text.TextFormat;
+import flash.display.Sprite;
+import flash.events.Event;
+import flash.Lib;
+import flash.text.TextField;
+import flash.text.TextFieldType;
 import ru.stablex.ui.RTXml;
 import ru.stablex.ui.UIBuilder;
 

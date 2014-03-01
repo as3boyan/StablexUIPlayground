@@ -15,13 +15,13 @@
 	<!-- classpath, haxe libs -->
 	<source path="src" />
 	<source path="C:\Users\ps\Downloads\StablexUI-master\StablexUI-master\src" />
-	<haxelib name="nme" />
+	<haxelib name="openfl" />
 	<haxelib name="actuate" />
 	<haxelib name="hscript" />
+	<haxelib name="stablexui" />
 	
 	<!-- assets -->
 	<icon path="assets/nme.svg" />
-	<assets path="assets/img" rename="img" />
 	
 	<!-- optimize output -->
 	<haxeflag name="--dead-code-elimination" unless="haxe3" />
